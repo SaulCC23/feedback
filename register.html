@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Institutional Registration</title>
+  <link rel="stylesheet" href="register.css" />
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="register-container">
+    <h1>REGISTRO INSTITUCIONAL</h1>
+
+    <form class="register-form">
+      <div class="column">
+        <input type="text" placeholder="Nombres" required>
+        <input type="email" placeholder="Matricula@merida.tecnm.mx " required>
+        <input type="password" placeholder="Contraseña" required>
+      </div>
+
+      <div class="column">
+        <input type="text" placeholder="Apellidos" required>
+        <input type="email" placeholder="Correo De Recuperacion" required>
+
+        <div class="role-toggle">
+          <label>
+            <input type="radio" name="role" value="student" checked>
+            <span>estudiante</span>
+          </label>
+          <label>
+            <input type="radio" name="role" value="professor">
+            <span>presentador</span>
+          </label>
+        </div>
+      </div>
+    </form>
+
+    <button class="btn-grad">SIGN UP</button>
+    <p class="login-link">Already have an account? <a href="index.html">Log In</a></p>
+  </div>
+</body>
+</html>
